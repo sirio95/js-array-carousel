@@ -46,9 +46,7 @@ body{
     transform: scale(1.1);
 }
 
-.dots{
-    display:flex;
-}
+
 .dot{
     width:10px;
     height:10px;
@@ -57,6 +55,7 @@ body{
     position:absolute;
     bottom: 10px;
     z-index:2;
+
 }
 
 .one{
@@ -76,6 +75,7 @@ body{
 }
 
 .icon{
+    display:none;
     width:30px;
     height:30px;
     border-radius: 50%;
@@ -99,8 +99,8 @@ body{
     opacity:1;
 }
 .next.active{
-    display:none;
+    display:block;
 }
 .prev.active{
-    display:none;
+    display:block;
 }
