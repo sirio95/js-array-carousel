@@ -43,18 +43,17 @@ body{
 }
 .dot.active{
     background-color:#fff;
-    transform: scale(1.1);
     opacity:1;
     border: 1px solid red;
 }
 
 
 .dot{
-    width:10%;
-    height:10%;
+    width:20%;
+    height:20%;
     background-color:grey;
     position:absolute;
-    right: 10px;
+    right: 0;
     z-index:2;
     opacity:30%;
     background-size: 100%;
@@ -62,25 +61,25 @@ body{
 }
 
 .one{
-    top: 5%;
+    top: 0%;
     background-image: url(../img/01.webp);
 }
 .two{
-    top: 25%;
+    top: 20%;
     background-image: url(../img/02.webp);
 }
 .three{
-    top:45%;
+    top:40%;
     background-image: url(../img/03.webp);
     background-size:cover;
 }
 .four{
-    top:65%;
+    top:60%;
     background-image: url(../img/04.webp);
     background-size:cover;
 }
 .five{
-    top:85%;
+    top:80%;
     background-image: url(../img/05.webp);
 }
 
@@ -99,10 +98,10 @@ body{
 }
 
 .next{
-    top: 3%;
+    bottom: 3%;
 }
 .prev{
-    bottom: 3%;
+    top: 3%;
 }
 
 .icon:hover{

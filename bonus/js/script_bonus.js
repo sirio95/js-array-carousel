@@ -1,9 +1,8 @@
 const items_inizio= [`<div class="item active"><img src="img/01.webp"></div>`, `<div class="item"><img src="img/02.webp"></div>`, `<div class="item"><img src="img/03.webp"></div>`, `<div class="item"><img src="img/04.webp"></div>`, `<div class="item"><img src="img/05.webp"></div>`];
 const dots_inizio=[`<span class="dot one active"></span>`, `<span class="dot two"></span>`, `<span class="dot three"></span>`, `<span class="dot four"></span>`, `<span class="dot five"></span>`]
 
-let next_inizio= `<button class="icon next active" id="next_button"><i class="fa-solid fa-up-long"></i></button>`;
-let prev_inizio= `<button class="icon prev" id="prev_button"><i class="fa-solid fa-down-long"></i></button>`; 
-
+let next_inizio= `<button class="icon next active" id="next_button"><i class="fa-solid fa-down-long"></i></button>`;
+let prev_inizio= `<button class="icon prev" id="prev_button"><i class="fa-solid fa-up-long"></i></button>`; 
 
 const container=document.querySelector(".container");
 
